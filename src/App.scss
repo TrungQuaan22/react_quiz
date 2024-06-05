@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
+    box-sizing: border-box;
    }
 body {
     margin: 0;
@@ -14,4 +14,11 @@ body {
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.app-container {
+    .header-container {
+        .navbar-nav .nav-link.active {
+            color: orange
+        }
+    }
 }
